@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(A_crystal-clear_lake_reflecting_surrounding_emerald_hills_an.jpg);
+   background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#container{
+    text-align: center;
+    border: 2px solid;
+    padding: 30px;
+    border-radius: 25px;
+    height: 25vh;
+    text-shadow: 2px 2px 2px ;
+    margin-bottom: 50px;
+}
+#display{
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+#startBut{
+    background-color: rgb(81, 255, 0);
+    color:white;
+    border-radius:8px;
+    border: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+     cursor: pointer;
+
+}
+#startBut:hover{
+  background-color: rgb(102, 236, 41);
+}
+#stopBut{
+    background-color: rgb(253, 8, 4);
+   color: white;
+   border-radius: 8px;
+    border: none;
+     font-size: 1.1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#stopBut:hover{
+    background-color:  rgb(207, 42, 40);;
+}
+#resetBut{
+    background-color: rgb(3, 165, 235);
+    color: white;
+    border-radius: 8px;
+    border: none;
+     font-size: 1.1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+     cursor: pointer;
+    
+}
+#resetBut:hover{
+     background-color: rgb(38, 170, 227);
+     
+}
